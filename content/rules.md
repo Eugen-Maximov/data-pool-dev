@@ -353,6 +353,26 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
 
 </details>
 
+<details class="sidebar-group book-toggle">
+    <summary>Night City 2045</summary>
+
+        <br><b>Издание:</b> Цифровое<br>
+        <b>Дата выхода:</b> Апрель 2026<br>
+
+        Подробный гайд по Найт-Сити в 2045.<br>
+        300 страниц контента с подробным описанием всего:<br>
+            - 44 банды<br>
+            - 6 ОПГ<br>
+            - 23 охранных предприятий<br>
+            - 24 района<br>
+            - 600+ локаций (магазины, бары, клиники...)<br>
+        И многое другое!
+        <br><br>
+
+        <a href="https://www.drivethrurpg.com/en/product/562971/night-city-2045" target="_blank" rel="ner noreferrer" class="version-more-button">В магазин</a><br>
+
+</details>
+
 </div>
 
 <div class="tab-content" id="dlc">
@@ -1135,6 +1155,28 @@ keywords: ["правила", "длс", "dlc", "контент", "источни�
         Набор из 20 прегенов обычных жителей и работяг Найт-Сити.<br><br>
 
         <a href="https://rtalsoriangames.com/wp-content/uploads/2026/01/RTG-CPR-DLC-EverydayPeoplev1.01.pdf" target="_blank" rel="ner noreferrer" class="version-more-button">Читать</a><br>
+
+</details>
+
+<details class="sidebar-group book-toggle">
+    <summary>Invented Tech Upgrades</summary>
+
+        <b>Дата выхода:</b> Март 2026<br>
+
+        Все для техников и лиц им сочуствующим. А также уточнения по экономике, связанной с улучшениями предметов.<br><br>
+
+        <a href="https://rtalsoriangames.com/wp-content/uploads/2026/03/RTG-CPR-DLC-InventedTechUpgradesv1.1.pdf" target="_blank" rel="ner noreferrer" class="version-more-button">Читать</a><br>
+
+</details>
+
+<details class="sidebar-group book-toggle">
+    <summary>Cyberpunk RED x Fossilized Violence</summary>
+
+        <b>Дата выхода:</b> Апрель 2026<br>
+
+        Первоапрельская шутка с динозаврами и новыми суперскими крит.травмами. Теперь и мезозойские приколы в вашем киберпанке.<br><br>
+
+        <a href="https://rtalsoriangames.com/wp-content/uploads/2026/04/RTG-CPR-DLC-CPRxFV.pdf" target="_blank" rel="ner noreferrer" class="version-more-button">Читать</a><br>
 
 </details>
 
