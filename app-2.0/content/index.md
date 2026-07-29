@@ -10,7 +10,7 @@ title: Data Pool 2.0
 
 Весь раздел [Снаряжение]({{ '/equipment/' | url }}) перенесён в формат 2.0:
 
-- [Оружие]({{ '/equipment/weapons/' | url }})
+- [Оружие]({{ '/equipment/weapons/range/' | url }})
 - [Броня]({{ '/equipment/armor/' | url }})
 - [Предметы]({{ '/equipment/items/' | url }})
 - [Агенты]({{ '/equipment/agents/' | url }})

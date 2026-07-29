@@ -150,7 +150,27 @@ module.exports = function (eleventyConfig) {
   makeCatalogCollections(
     eleventyConfig,
     "weapons",
-    "app-2.0/content/equipment/weapons/items/*.md"
+    "app-2.0/content/equipment/weapons/items/**/*.md"
+  );
+  makeCatalogCollections(
+    eleventyConfig,
+    "weaponsRange",
+    "app-2.0/content/equipment/weapons/items/range/*.md"
+  );
+  makeCatalogCollections(
+    eleventyConfig,
+    "weaponsMelee",
+    "app-2.0/content/equipment/weapons/items/melee/*.md"
+  );
+  makeCatalogCollections(
+    eleventyConfig,
+    "weaponsAmmo",
+    "app-2.0/content/equipment/weapons/items/ammo/*.md"
+  );
+  makeCatalogCollections(
+    eleventyConfig,
+    "weaponsExplosives",
+    "app-2.0/content/equipment/weapons/items/explosives/*.md"
   );
   makeCatalogCollections(
     eleventyConfig,
