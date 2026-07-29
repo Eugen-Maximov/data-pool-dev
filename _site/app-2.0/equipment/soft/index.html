@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Софт для Агента · Data Pool 2.0</title>
+    <link rel="stylesheet" href="/data-pool/app-2.0/css/main.css">
+    <link rel="icon" href="/data-pool/app-2.0/images/favicon.png" type="image/png">
+</head>
+<body>
+<header class="site-header">
+    <div class="site-header__brand">
+        <a href="/data-pool/app-2.0/" class="brand-mark">DATA POOL</a>
+        <span class="brand-version">2.0</span>
+    </div>
+    <p class="site-header__tagline">Каталог · прототип новой структуры</p>
+</header>
+
+<div class="layout">
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <a href="/data-pool/app-2.0/" class="nav-link">Главная</a>
+            <a href="/data-pool/app-2.0/equipment/" class="nav-link is-active">Снаряжение</a>
+            <div class="nav-sub">
+                <a href="/data-pool/app-2.0/equipment/weapons/" class="nav-link">Оружие</a>
+                <a href="/data-pool/app-2.0/equipment/armor/" class="nav-link">Броня</a>
+                <a href="/data-pool/app-2.0/equipment/items/" class="nav-link">Предметы</a>
+                <a href="/data-pool/app-2.0/equipment/agents/" class="nav-link">Агенты</a>
+                <a href="/data-pool/app-2.0/equipment/soft/" class="nav-link is-active">Софт</a>
+                <a href="/data-pool/app-2.0/equipment/clothes-style/" class="nav-link">Одежда и стиль</a>
+                <a href="/data-pool/app-2.0/equipment/acpa/" class="nav-link">Силовая броня</a>
+            </div>
+        </nav>
+        <p class="sidebar-note">Параллельная сборка v2. Основной сайт не затронут.</p>
+    </aside>
+
+    <main class="content" id="main-content">
+        
+
+<a href="/data-pool/app-2.0/equipment/" class="return-link">← Снаряжение</a>
+
+<h1>Софт для Агента</h1>
+<p class="shop-intro">Приложения для вашего Агента. Карточка — название и цена, внутри — правила.</p>
+
+
+
+
+
+<div class="catalog" data-catalog>
+  <div class="shop-toolbar">
+    <label class="shop-search">
+      <span class="visually-hidden">Поиск</span>
+      <input type="search" placeholder="Найти приложение…" autocomplete="off" data-catalog-filter>
+    </label>
+    <p class="shop-count"><span data-catalog-count>20</span> / 20</p>
+  </div>
+
+  
+  <div class="shop-tabs" role="tablist" aria-label="Категории">
+    <button type="button" class="shop-tab is-active" role="tab" data-category="*" aria-selected="true">Все</button>
+    
+    <button type="button" class="shop-tab" role="tab" data-category="free" aria-selected="false">Бесплатные</button>
+    
+    <button type="button" class="shop-tab" role="tab" data-category="paid" aria-selected="false">Платные</button>
+    
+  </div>
+  
+
+  <div class="weapon-grid" data-catalog-grid>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="вавилон-чат"
+      data-title="Вавилон Чат"
+      data-category="free"
+      data-category-label="Бесплатные"
+      data-search="вавилон чат самый популярный мессенджер, отчасти потому, что оно предустановлен на всех агентах. 0 бесплатно cyberpunk red зиккурат"
+    >
+      <span class="weapon-card__name">Вавилон Чат</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Зиккурат</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Самый популярный мессенджер, отчасти потому, что оно предустановлен на всех Агентах.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">0 (Бесплатно)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="сразу-спроси-сашу"
+      data-title="Сразу Спроси Сашу"
+      data-category="free"
+      data-category-label="Бесплатные"
+      data-search="сразу спроси сашу самый популярный поисковик. сразу спроси сашу устанавливается при первом подключении к citinet. движок саии агента… 0 бесплатно cyberpunk red зиккурат"
+    >
+      <span class="weapon-card__name">Сразу Спроси Сашу</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Зиккурат</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Самый популярный поисковик. Сразу Спроси Сашу устанавливается при первом подключении к CitiNet. Движок САИИ Агента…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">0 (Бесплатно)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="cbk"
+      data-title="CBK"
+      data-category="free"
+      data-category-label="Бесплатные"
+      data-search="cbk cbk (произносится как cee book) — это приложение-компаньон ночного рынка. 0 бесплатно cyberpunk red"
+    >
+      <span class="weapon-card__name">CBK</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">CBK (произносится как Cee Book) — это приложение-компаньон Ночного рынка.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">0 (Бесплатно)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="garden"
+      data-title="Garden"
+      data-category="free"
+      data-category-label="Бесплатные"
+      data-search="garden самое популярное приложение ziggurat после сразу спроси сашу. 0 бесплатно cyberpunk red зиккурат"
+    >
+      <span class="weapon-card__name">Garden</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Зиккурат</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Самое популярное приложение Ziggurat после Сразу Спроси Сашу.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">0 (Бесплатно)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="z-почта"
+      data-title="Z-Почта"
+      data-category="free"
+      data-category-label="Бесплатные"
+      data-search="z-почта приложение для управления электронной почтой. имеет достойные возможности и (вероятно) не подвергается удаленному… 0 бесплатно cyberpunk red зиккурат"
+    >
+      <span class="weapon-card__name">Z-Почта</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Зиккурат</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Приложение для управления электронной почтой. Имеет достойные возможности и (вероятно) не подвергается удаленному…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">0 (Бесплатно)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="4тифай"
+      data-title="4Тифай"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="4тифай 4тифай превращает ваш агент в сканер для определения самых слабых мест в ваших дверях, стенах и окнах. 100eb премиум cyberpunk red сексистемс"
+    >
+      <span class="weapon-card__name">4Тифай</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">СекСистемс</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">4Тифай превращает ваш Агент в сканер для определения самых слабых мест в ваших дверях, стенах и окнах.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">100eb (Премиум)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="больше-саии"
+      data-title="Больше САИИ"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="больше саии эта надстройка улучшает саии вашего агента, улучшая результаты и скорость. 100eb премиум cyberpunk red зиккурат"
+    >
+      <span class="weapon-card__name">Больше САИИ</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Зиккурат</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Эта надстройка улучшает САИИ вашего Агента, улучшая результаты и скорость.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">100eb (Премиум)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="вдохновитель"
+      data-title="Вдохновитель"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="вдохновитель это терапевтическое приложение на базе саии, работающее лучше любого специалиста по утверждениям разработчиков. 50eb ценное cyberpunk red no/brainer"
+    >
+      <span class="weapon-card__name">Вдохновитель</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">No/Brainer</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Это терапевтическое приложение на базе САИИ, работающее лучше любого специалиста по утверждениям разработчиков.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">50eb (Ценное) · Ежемесячно</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="городская-база-данных"
+      data-title="Городская База Данных"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="городская база данных “ваш агент — великолепный инструмент, но если вы не загружаете в него приложения, вы используете только половину его… 100eb премиум cyberpunk red зиккурат"
+    >
+      <span class="weapon-card__name">Городская База Данных</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Зиккурат</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">“Ваш агент — великолепный инструмент, но если вы не загружаете в него приложения, вы используете только половину его…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">100eb (Премиум)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="киньмне"
+      data-title="КиньМне!"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="киньмне! все еще платите за вещи настоящими купюрами? киньмне! доступен во всех магазинах oasis. достаньте агент, договоритесь о… 10eb дешевка cyberpunk red евробанк"
+    >
+      <span class="weapon-card__name">КиньМне!</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">ЕвроБанк</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Все еще платите за вещи настоящими купюрами? КиньМне! доступен во всех магазинах Oasis. Достаньте Агент, договоритесь о…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">10eb (Дешевка)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="охранный-бокс"
+      data-title="Охранный Бокс"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="охранный бокс охранный бокс использует существующие датчики вашего агента, чтобы дешево обезопасить любую комнату, в которой агент… 50eb ценное cyberpunk red no/brainer"
+    >
+      <span class="weapon-card__name">Охранный Бокс</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">No/Brainer</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Охранный Бокс использует существующие датчики вашего Агента, чтобы дешево обезопасить любую комнату, в которой Агент…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">50eb (Ценное)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="сияющий-палец"
+      data-title="Сияющий Палец"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="сияющий палец зачем рисковать потенциальным разочарованием от секса в реальном мире, когда вы можете заплатить нам за лучшее порно в… 50eb ценное cyberpunk red"
+    >
+      <span class="weapon-card__name">Сияющий Палец</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Зачем рисковать потенциальным разочарованием от секса в реальном мире, когда вы можете заплатить нам за лучшее порно в…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">50eb (Ценное) · Ежемесячно</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="сканер-отпечатков-рук"
+      data-title="Сканер отпечатков рук"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="сканер отпечатков рук чтобы сделать перчатку с отпечатком руки, вам понадобится запись чьего-то отпечатка. 20eb обычное cyberpunk red"
+    >
+      <span class="weapon-card__name">Сканер отпечатков рук</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Чтобы сделать Перчатку с Отпечатком руки, вам понадобится запись чьего-то отпечатка.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">20eb (Обычное)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="сканер-сетчатки-глаза"
+      data-title="Сканер сетчатки глаза"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="сканер сетчатки глаза конечно, для создания линзыс сетчаткой глаза сначала нужен рисунок сетчатки. 50eb ценное cyberpunk red"
+    >
+      <span class="weapon-card__name">Сканер сетчатки глаза</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Конечно, для создания Линзыс Сетчаткой глаза сначала нужен рисунок сетчатки.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">50eb (Ценное)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="цифровой-гладиатор"
+      data-title="Цифровой Гладиатор"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="цифровой гладиатор у вас есть обида на соперника? не решаетесь устроить перестрелку на улице? хотите ударить его по самому больному месту… 20eb обычное cyberpunk red сеготари"
+    >
+      <span class="weapon-card__name">Цифровой Гладиатор</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Сеготари</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">У вас есть обида на соперника? Не решаетесь устроить перестрелку на улице? Хотите ударить его по самому больному месту…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">20eb (Обычное)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="шевелись-плотва"
+      data-title="Шевелись, Плотва!"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="шевелись, плотва! сайдскроллинговый аркадный хит переходит на ваш агент! играйте за глючную цифровую лошадь, которая мчится по… 20eb обычное cyberpunk red cdp s.a."
+    >
+      <span class="weapon-card__name">Шевелись, Плотва!</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">CDP S.A.</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Сайдскроллинговый аркадный хит переходит на ваш Агент! Играйте за глючную цифровую лошадь, которая мчится по…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">20eb (Обычное)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="elflines-online-эльф-трекер"
+      data-title="Elflines Online Эльф-трекер"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="elflines online эльф-трекер одержимые игроки подключают свой elo-аккаунт к приложению, чтобы мониторить состояние своего эльфа, организовывать… 50eb ценное cyberpunk red сеготари"
+    >
+      <span class="weapon-card__name">Elflines Online Эльф-трекер</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Сеготари</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Одержимые игроки подключают свой ELO-аккаунт к приложению, чтобы мониторить состояние своего эльфа, организовывать…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">50eb (Ценное)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="hustool"
+      data-title="HusTool"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="hustool всем нужны дополнительные деньги. hustool позволяет вам выполнять случайные работы, когда у вас есть свободный час… 20eb обычное cyberpunk red no/brainer"
+    >
+      <span class="weapon-card__name">HusTool</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">No/Brainer</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Всем нужны дополнительные деньги. HusTool позволяет вам выполнять случайные работы, когда у вас есть свободный час…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">20eb (Обычное)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="ncpd-база-преступлений"
+      data-title="NCPD База Преступлений"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="ncpd база преступлений ковыряйтесь в грязном белье чужих судимостей. база данных преступлений ncpd связывает камеру вашего агента с городскими… 500eb дорогое cyberpunk red ncpd"
+    >
+      <span class="weapon-card__name">NCPD База Преступлений</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">NCPD</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Ковыряйтесь в грязном белье чужих судимостей. База данных преступлений NCPD связывает камеру вашего агента с городскими…</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">500eb (Дорогое)</span>
+        
+      </span>
+    </button>
+  
+    
+    <button
+      type="button"
+      class="weapon-card weapon-card--has-stats"
+      data-item-open
+      data-slug="trauma-team-медскан"
+      data-title="Trauma Team МедСкан"
+      data-category="paid"
+      data-category-label="Платные"
+      data-search="trauma team медскан получи помощь в &quot;самостоятельных&quot; операциях на самом себе. 20eb обычное cyberpunk red trauma team"
+    >
+      <span class="weapon-card__name">Trauma Team МедСкан</span>
+
+      
+      <span class="weapon-card__meta">
+        
+          
+          <span class="stat"><em>Бренд</em><span class="stat__value">Trauma Team</span></span>
+          
+        
+      </span>
+      
+
+      <span class="weapon-card__summary">Получи помощь в &quot;самостоятельных&quot; операциях на самом себе.</span>
+
+      <span class="weapon-card__footer">
+        <span class="weapon-card__source">Cyberpunk RED</span>
+        
+        <span class="weapon-card__price">20eb (Обычное)</span>
+        
+      </span>
+    </button>
+  
+  </div>
+</div>
+
+<div class="item-templates" hidden>
+
+  
+  <template id="item-tpl-вавилон-чат">
+    <script type="application/json" class="item-stats">{"price":"0","availability":"Бесплатно","source":"Cyberpunk RED","summary":"Самый популярный мессенджер, отчасти потому, что оно предустановлен на всех Агентах.","brand":"Зиккурат"}</script>
+    <div class="weapon-detail">
+      
+      <p>Самый популярный мессенджер, отчасти потому, что оно предустановлен на всех Агентах. Пользователи могут тратить деньги на дополнительные темы, эмоции и эффекты камеры.
+Приложение. Позволяет отправлять текстовые сообщения и вести видеочаты.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-сразу-спроси-сашу">
+    <script type="application/json" class="item-stats">{"price":"0","availability":"Бесплатно","source":"Cyberpunk RED","summary":"Самый популярный поисковик. Сразу Спроси Сашу устанавливается при первом подключении к CitiNet. Движок САИИ Агента…","brand":"Зиккурат"}</script>
+    <div class="weapon-detail">
+      
+      <p>Самый популярный поисковик. Сразу Спроси Сашу устанавливается при первом подключении к CitiNet. Движок САИИ Агента напрямую подключается к Спроси Сашу, чтобы составлять свои отчетов и поиска информации.
+Приложение. Позволяет пользователю искать и отображать данные из CitiNet.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-cbk">
+    <script type="application/json" class="item-stats">{"price":"0","availability":"Бесплатно","source":"Cyberpunk RED","summary":"CBK (произносится как Cee Book) — это приложение-компаньон Ночного рынка."}</script>
+    <div class="weapon-detail">
+      
+      <p>CBK (произносится как Cee Book) — это приложение-компаньон Ночного рынка. Просто бесплатно загрузите его в свой Агент и используйте, чтобы улучшить свой опыт покупок на Ночном рынке. За пределами Ночного рынка CBK не приносит особой пользы, поскольку все, что вы получите, — это сообщение &quot;поиск базы данных&quot;. Однако, попав на Ночной рынок, вы мгновенно получите список доступных товаров, информацию о том, куда идти, и даже возможность купить предметы, не видя их, чтобы какой-нибудь балбес не успел проскочить и схватить понравившийся вам пистолет, прежде чем вы успеете дойти от входа до стенда на другом конце склада.</p>
+<p>Фиксер, отвечающий за Ночной рынок, использует приложение CBK-Фиксер для создания базы данных с объявлениями о товарах, вводя такую информацию, как название и описание товара, стоимость, местоположение на Ночном рынке и так далее. Фиксеры могут составлять свои собственные описания и добавлять свои изображения к объявлению о товаре или выбирать из тысяч уже существующих вариантов, регулярно обновляемых прекрасными людьми, создавшими это приложение. Кстати, именно так CBK зарабатывает деньги: Фиксеры платят 1eb за каждое объявление, чтобы использовать уже существующую информацию и фотографии (минимум 50eb). Многие считают, что сэкономленное время компенсирует понесенные затраты.
+После того, как база данных полностью сформирована, Фиксер нажимает кнопку “Запустить в Эфир” и настраивает свой Агент на трансляцию Ночного рынка. Многие Фиксеры покупают специальный Агент только для этой цели, так как закрытие приложения также отключает трансляцию базы данных.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-garden">
+    <script type="application/json" class="item-stats">{"price":"0","availability":"Бесплатно","source":"Cyberpunk RED","summary":"Самое популярное приложение Ziggurat после Сразу Спроси Сашу.","brand":"Зиккурат"}</script>
+    <div class="weapon-detail">
+      
+      <p>Самое популярное приложение Ziggurat после Сразу Спроси Сашу. Garden позволяет пользователям просматривать и делиться контентом через Дата Пул. Почти у каждого, кто хочет социальной видимости, есть личный Garden Patch, и большинство жителей Найт-Сити используют Garden, чтобы быть в курсе событий и тенденций.
+Приложение. Предоставляет доступ к содержимому
+Garden. Зарегистрированные пользователи могут комментировать, публиковать и редактировать контент.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-z-почта">
+    <script type="application/json" class="item-stats">{"price":"0","availability":"Бесплатно","source":"Cyberpunk RED","summary":"Приложение для управления электронной почтой. Имеет достойные возможности и (вероятно) не подвергается удаленному…","brand":"Зиккурат"}</script>
+    <div class="weapon-detail">
+      
+      <p>Приложение для управления электронной почтой. Имеет достойные возможности и (вероятно) не подвергается удаленному мониторингу.
+Приложение. Позволяет Агенту пользователя отправлять, получать, читать и организовывать электронную почту и вложенные файлы.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-4тифай">
+    <script type="application/json" class="item-stats">{"price":"100eb","availability":"Премиум","source":"Cyberpunk RED","summary":"4Тифай превращает ваш Агент в сканер для определения самых слабых мест в ваших дверях, стенах и окнах.","brand":"СекСистемс"}</script>
+    <div class="weapon-detail">
+      
+      <p>4Тифай превращает ваш Агент в сканер для определения самых слабых мест в ваших дверях, стенах и окнах. Просто просканируйте структурные поверхности, и вы будете точно знать, где нужно укрепить ваш дом, чтобы превратить его в
+крепость!
+Приложение. Абсолютно бесполезно по своему прямому назначению, но если пользователь потратит 5 минут на сканирование участка укрытия с помощью приложения, он получит +1d6 к следующему урону, нанесенному по нему с использованием этой информации. Чтобы выполнить правильное сканирование, пользователь со своим Агентом должен находиться в пределах 1м от укрытия в течение всех 5 минут.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-больше-саии">
+    <script type="application/json" class="item-stats">{"price":"100eb","availability":"Премиум","source":"Cyberpunk RED","summary":"Эта надстройка улучшает САИИ вашего Агента, улучшая результаты и скорость.","brand":"Зиккурат"}</script>
+    <div class="weapon-detail">
+      
+      <p>Эта надстройка улучшает САИИ вашего
+Агента, улучшая результаты и скорость. Она также отслеживает использование вашего Агента и незаметно отправляет о вас отчеты в Ziggurat.
+Приложение. Пока она установлена, ваш Агент дает вам +3 к броскам на Поиск Информации вместо +2.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-вдохновитель">
+    <script type="application/json" class="item-stats">{"price":"50eb","availability":"Ценное","priceNote":"Ежемесячно","source":"Cyberpunk RED","summary":"Это терапевтическое приложение на базе САИИ, работающее лучше любого специалиста по утверждениям разработчиков.","brand":"No/Brainer"}</script>
+    <div class="weapon-detail">
+      
+      <p>Это терапевтическое приложение на базе САИИ, работающее лучше любого специалиста по утверждениям разработчиков. Вдохновитель обеспечивает элементарную разговорную терапию, но не может назначать лекарства от Биотехники или проводить операции с БрейнДансами, которые делают современную терапию такой эффективной. Его пользовательское соглашение крайне сомнительно и не содержит раздела о конфиденциальности данных пользователя.
+Приложение. Если пользователь проводит за приложением не менее часа непосредственно за неделю до терапии (см. CP:R 229), бросьте 1d10. При четном результате пользователь завершает терапию на день раньше, из-за более ясного понимания своего психического здоровья. При нечетном терапия требует доп. дня, поскольку «инсайт» препятствует прогрессу.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-городская-база-данных">
+    <script type="application/json" class="item-stats">{"price":"100eb","availability":"Премиум","source":"Cyberpunk RED","summary":"“Ваш агент — великолепный инструмент, но если вы не загружаете в него приложения, вы используете только половину его…","brand":"Зиккурат"}</script>
+    <div class="weapon-detail">
+      
+      <p>“Ваш агент — великолепный инструмент, но если вы
+не загружаете в него приложения, вы используете
+только половину его возможностей! Чтобы жить полной жизнью, вам понадобятся приложения, которые сделают жизнь проще, быстрее и удобнее. Конечно, я лично рекомендую Приложения Зиккурат, потому что в глубине души я знаю, что мы создали каждое из них так, чтобы оно было лучшим. Я говорю правду, чумбы. Я обещаю.”
+**
+Приложение Владение Городской Базой Данных для определенного города дает пользователю бонус +1 ко всем проверкам навыков Знания Местности, связанным с общинами и районами, составляющими этот город.**</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-киньмне">
+    <script type="application/json" class="item-stats">{"price":"10eb","availability":"Дешевка","source":"Cyberpunk RED","summary":"Все еще платите за вещи настоящими купюрами? КиньМне! доступен во всех магазинах Oasis. Достаньте Агент, договоритесь о…","brand":"ЕвроБанк"}</script>
+    <div class="weapon-detail">
+      
+      <p>Все еще платите за вещи настоящими купюрами? КиньМне! доступен во всех магазинах Oasis. Достаньте Агент, договоритесь о сумме, а затем переведите деньги одним касанием!
+Приложение. КиньМне! осуществляет денежные переводы либо в пункт оплаты, либо между двумя Агентами с установленным приложением.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-охранный-бокс">
+    <script type="application/json" class="item-stats">{"price":"50eb","availability":"Ценное","source":"Cyberpunk RED","summary":"Охранный Бокс использует существующие датчики вашего Агента, чтобы дешево обезопасить любую комнату, в которой Агент…","brand":"No/Brainer"}</script>
+    <div class="weapon-detail">
+      
+      <p>Охранный Бокс использует существующие датчики вашего Агента, чтобы дешево обезопасить любую комнату, в которой Агент находится в данный момент. Его легко обойти, но это лучше, чем ничего.
+Приложение. Когда пользователь устанавливает Агент в центре комнаты и активирует Охранную Коробку, он тратит 5 минут на оценку помещения, размер которого не должен превышать 20 м/ярдов на 20 м/ярдов (10 квадратов на 10 квадратов). После этого, пока Агент не перемещается, любой громкий шум, вспышка яркого света или движение людей, не находящихся в помещении во время оценки, вызывают громкий звуковой сигнал. Охранная Коробка не работает с внутренними агентами. Злоумышленники, успешно прошедшие проверку на скрытность СЛ13, не вызывают тревогу.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-сияющий-палец">
+    <script type="application/json" class="item-stats">{"price":"50eb","availability":"Ценное","priceNote":"Ежемесячно","source":"Cyberpunk RED","summary":"Зачем рисковать потенциальным разочарованием от секса в реальном мире, когда вы можете заплатить нам за лучшее порно в…"}</script>
+    <div class="weapon-detail">
+      
+      <p>Зачем рисковать потенциальным разочарованием от секса в реальном мире, когда вы можете заплатить нам за лучшее порно в Дата Пуле, идеально подобранное под ваши точные предпочтения. Просматривайте наше множество предложений по старинке, на плоском экране, или проецируйте его прямо на очки виртуальности, чтобы взаимодействовать с виртуальными аватарами ваших любимых звезд! Сияющий Палец даже подключается к вашему Мр. Перчику, Полуночнице или секс-игрушке по выбору, чтобы вывести ваш порнографический опыт на новый уровень!
+Приложение. Это порно-приложение. Используйте свое воображение.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-сканер-отпечатков-рук">
+    <script type="application/json" class="item-stats">{"price":"20eb","availability":"Обычное","source":"Cyberpunk RED","summary":"Чтобы сделать Перчатку с Отпечатком руки, вам понадобится запись чьего-то отпечатка."}</script>
+    <div class="weapon-detail">
+      
+      <p>Чтобы сделать Перчатку с Отпечатком руки, вам понадобится запись чьего-то отпечатка. С вашим Агентом это проще простого. Это значит, всё просто, малыш. Вы можете отсканировать саму руку или распылить немного мелкой пыли на отпечатки, оставленные на гладкой поверхности, и отсканировать их.</p>
+<p><strong>Приложение.</strong> Чтобы напрямую записать чей-то отпечаток руки, пользователь должен быть в досягаемости Ближнего Боя и ничего не делать, кроме сканирования открытой руки цели (со стороны ладони) с помощью приложения в течение 9 секунд (3 раунда). Это время не обязательно должно быть последовательным. Сканирование цели в течение раунда является Действием и требует от пользователя успешного прохождения проверки Драки Сл13. Если цель без сознания, связана или по какой-либо причине не может шевелиться, пользователь автоматически проходит эту проверку.</p>
+<p>Пользователь также может сканировать отпечатки, оставленные на гладких поверхностях. Если отпечаток полный (вся рука отпечаталась на поверхности), для этого потребуется только одно сканирование. В противном случае пользователь должен собрать отпечаток руки Цели как минимум из пяти разных отпечатков. Каждый раз, когда пользователь сканирует отпечаток, он должен пройти проверку Криминологии DV13, чтобы получить его для использования.</p>
+<p><a href="/data-pool/equipment/items/#gloves">Перчатки, совместимые с программой купить здесь</a></p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-сканер-сетчатки-глаза">
+    <script type="application/json" class="item-stats">{"price":"50eb","availability":"Ценное","source":"Cyberpunk RED","summary":"Конечно, для создания Линзыс Сетчаткой глаза сначала нужен рисунок сетчатки."}</script>
+    <div class="weapon-detail">
+      
+      <p>Конечно, для создания Линзыс Сетчаткой глаза сначала нужен рисунок сетчатки. Раньше для сканирования глаза требовалось дорогостоящее специализированное устройство. Теперь же достаточно приложения и Агента.</p>
+<p><strong>Приложение.</strong> Чтобы записать рисунок сетчатки глаза, пользователь должен находиться в досягаемости Ближнего Боя и сканировать открытый глаз цели с помощью приложения в течение 15 секунд (5 раундов). Это время не обязательно должно быть непрерывным. Сканирование цели в течение раунда является Действием и требует от пользователя успешного прохождения проверки Драки Сл13. Если цель без сознания, связана или по какой-либо причине не может шевелиться, пользователь автоматически проходит эту проверку. Пользователи с Интегрированным Агентом могут записывать рисунок сетчатки глаза, если у них также установлено МикроВидео в киберглазу или умных очках.</p>
+<p><a href="/data-pool/equipment/items/#lense">Линзы, совместимые с программой купить здесь</a></p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-цифровой-гладиатор">
+    <script type="application/json" class="item-stats">{"price":"20eb","availability":"Обычное","source":"Cyberpunk RED","summary":"У вас есть обида на соперника? Не решаетесь устроить перестрелку на улице? Хотите ударить его по самому больному месту…","brand":"Сеготари"}</script>
+    <div class="weapon-detail">
+      
+      <p>У вас есть обида на соперника? Не решаетесь устроить перестрелку на улице? Хотите ударить его по самому больному месту (кошельку)? Обратите внимание на приложение Цифровой Гладиатор от Сеготари! Разработанное для игры &quot;лицом к лицу&quot;, приложение связывает два Агента, позволяя пользователям сразиться на виртуальной арене. Приз? Агент победителя остается в безопасности, а агент проигравшего получает скачок напряжения, уничтожающий его. Если проигравший играл с помощью Внутреннего Агента, его мозг также будет поджарен. Стоимость замены агента делает Цифрового Гладиатора дорогим хобби, поощряя широко распространенную тенденцию играть на деньги. Но все же это дешевле, чем умереть на улице! Не тратьте боеприпасы на глупую обиду — вместо этого потратьте своего агента на Цифрового Гладиатора!
+Приложение. Чтобы играть, игроки должны сначала создать Цифрового Гладиатора: Соло 4 ранга, созданного методом &quot;Полный Пакет&quot; (СМ. CP:R СТР. 78), с 62 очками СТАТов, 86 очками навыков и 2 550 eb, которые можно потратить на все, что угодно, кроме взрывчатки. Чтобы получить возможность сражаться, Гладиаторы должны иметь Человечность выше 0. Во время игры Цифровых Гладиаторов все купленные боеприпасы восстанавливаются в конце матча, после чего Гладиатор победителя сбрасывается до предматчевого состояния.
+Игровой процесс представляет собой смертельную схватку между Соло, которая не может быть остановлена, как только она началась, кроме как по
+взаимному решению игроков, и происходит на арене, спроектированной ГМом.
+Агент проигравшего поджаривается, уничтожая его безвозвратно. Если проигравший использовал Внутренний Агент, он получает критическое повреждение от Черепно-мозговой Травмы в дополнение к тому, что его Агент будет безвозвратно уничтожен.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-шевелись-плотва">
+    <script type="application/json" class="item-stats">{"price":"20eb","availability":"Обычное","source":"Cyberpunk RED","summary":"Сайдскроллинговый аркадный хит переходит на ваш Агент! Играйте за глючную цифровую лошадь, которая мчится по…","brand":"CDP S.A."}</script>
+    <div class="weapon-detail">
+      
+      <p>Сайдскроллинговый аркадный хит переходит на ваш Агент! Играйте за глючную цифровую лошадь, которая мчится по фантастическим пейзажам, убегая от своего беловолосого наездника, уклоняясь от монстров, перепрыгивая препятствия и поедая морковку. Игроки могут доплатить за различные скины для главного героя, в том числе за уморительное чучело единорога.
+Приложение. Пиксель-Арт видеоигра из Польши.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-elflines-online-эльф-трекер">
+    <script type="application/json" class="item-stats">{"price":"50eb","availability":"Ценное","source":"Cyberpunk RED","summary":"Одержимые игроки подключают свой ELO-аккаунт к приложению, чтобы мониторить состояние своего эльфа, организовывать…","brand":"Сеготари"}</script>
+    <div class="weapon-detail">
+      
+      <p>Одержимые игроки подключают свой ELO-аккаунт к приложению, чтобы мониторить состояние своего эльфа, организовывать рейды, торговать предметами, следить за чатом и выслеживать долбоебов PK-шников (ради мести естественно).
+Приложение. Пользователи с учетной записью Elflines Online могут просматривать статистику своего эльфа, организовывать сделки и общаться в чате.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-hustool">
+    <script type="application/json" class="item-stats">{"price":"20eb","availability":"Обычное","source":"Cyberpunk RED","summary":"Всем нужны дополнительные деньги. HusTool позволяет вам выполнять случайные работы, когда у вас есть свободный час…","brand":"No/Brainer"}</script>
+    <div class="weapon-detail">
+      
+      <p>Всем нужны дополнительные деньги. HusTool позволяет вам выполнять случайные работы, когда у вас есть свободный час. Просто нажмите большую кнопку ЗАПЛАТИ МНЕ, чтобы получить поручение: доставить еду на вынос, перетащить диван по лестнице, подвезти кого-нибудь (если есть машина).
+Приложение. Каждое поручение занимает полчаса плюс время на дорогу и оплачивается в 10 eb. Бросьте 1d10.
+Если выпала 1, задание проваливается (Клиента нет на месте, ресторан закрыт и т.д.), пользователь тратит время, но не получает денег. При 10 пользователь заканчивает задание, но сталкивается с неприятностями (чтобы определить неприятность обратите внимание на соответствующию таблицу «Встречи в Найт-Сити» (стр. CP:R 417)).
+Легкие деньги!</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-ncpd-база-преступлений">
+    <script type="application/json" class="item-stats">{"price":"500eb","availability":"Дорогое","source":"Cyberpunk RED","summary":"Ковыряйтесь в грязном белье чужих судимостей. База данных преступлений NCPD связывает камеру вашего агента с городскими…","brand":"NCPD"}</script>
+    <div class="weapon-detail">
+      
+      <p>Ковыряйтесь в грязном белье чужих судимостей. База данных преступлений NCPD связывает камеру вашего агента с городскими записями о преступлениях. Приложение позволяет пользователю загружать цифровые фотографии в базу данных, а затем предупреждает пользователя, если люди на фотографии разыскиваются за какие либо преступления, если за них объявлена награда или если у них есть судимость. Этот процесс, который приложение называет запросом на получение информации, занимает один час. Информация, которую он выдает, ограничивается тем, что есть в открытом доступе в NCPD. NCPD имеет полный доступ к фотографии и любым встроенным метаданным. После того, как NCPD выпустил свое приложение, многие другие крупные
+города выпустили аналогичные приложения, используя свои собственные базы данных.
+Приложение. Требуется доступ к Городской Сети Найт Сити. Приложению требуется 1 час для получения результатов.</p>
+
+    </div>
+  </template>
+
+  
+  <template id="item-tpl-trauma-team-медскан">
+    <script type="application/json" class="item-stats">{"price":"20eb","availability":"Обычное","source":"Cyberpunk RED","summary":"Получи помощь в \"самостоятельных\" операциях на самом себе.","brand":"Trauma Team"}</script>
+    <div class="weapon-detail">
+      
+      <p>Получи помощь в &quot;самостоятельных&quot; операциях на самом себе. Вызвать бригаду Trauma Team, чтобы они прилетели и спасли вашу задницу, может быть заманчиво, но это стоит денег, и не каждый может позволить себе страховку. Так зачем тратить с трудом заработанные деньги, если можно просто скачать Trauma Team МедСкан, чтобы подлатать себя удаленно? Просто сфотографируйте вашу травму, и вас свяжут со специалистом Trauma Team, который проведет вас через простые медицинские процедуры и обеспечит высококачественный уход на дому. Trauma Team не несет ответственности за халатность, которую вы можете допустить при использовании приложения.
+Приложение. Требуется доступ к Городской Сети. МедСкан соединяет вас с удаленным специалистом Trauma Team, но его фактический инструктаж оплачивается дополнительно. За 100eb специалист будет оставаться на связи в течение 1 часа после оплаты и предоставит бонус +1 к любой проверке навыков Первой Помощи или Хирургии для стабилизации состояния пациента или Быстрой Помощи. За 500eb можно заплатить удаленному специалисту Trauma Team через приложение, чтобы он руководил всем процессом одного 4-часового лечения, установки, бодискульпта или операции, предоставляя бонус +1 к проверке навыков Медицинской Технологии или Хирургии. Подписчик “Trauma Team Корпоративный Клиент” может использовать это приложение без дополнительной оплаты после покупки, но доступ к услуге может быть прекращен в случае злоупотребления.</p>
+
+    </div>
+  </template>
+
+</div>
+
+
+    </main>
+</div>
+
+<dialog id="item-modal" class="weapon-modal" aria-labelledby="item-modal-title">
+    <div class="weapon-modal__shell">
+        <header class="weapon-modal__header">
+            <div>
+                <p class="weapon-modal__eyebrow" id="item-modal-category"></p>
+                <h2 id="item-modal-title"></h2>
+            </div>
+            <button type="button" class="weapon-modal__close" data-close-modal aria-label="Закрыть">×</button>
+        </header>
+        <div class="weapon-modal__stats" id="item-modal-stats"></div>
+        <div class="weapon-modal__body" id="item-modal-body"></div>
+    </div>
+</dialog>
+
+<script>window.__BASE_PATH__ = "/data-pool/app-2.0/";</script>
+<script src="/data-pool/app-2.0/app/shop.js" defer></script>
+</body>
+</html>

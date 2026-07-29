@@ -1,0 +1,19 @@
+---
+title: Силовая броня
+permalink: /equipment/acpa/
+layout: base.njk
+---
+{% from "macros/catalog.njk" import catalog %}
+
+<a href="{{ '/equipment/' | url }}" class="return-link">← Снаряжение</a>
+
+<h1>Силовая броня</h1>
+<p class="shop-intro">Готовые боевые экзокостюмы. Правила использования, сборки и боя — на <a href="{{ '/equipment/acpa/rules/' | url }}">отдельной странице</a>.</p>
+
+{{ catalog(collections.acpaCategories, collections.acpa, {
+  searchPlaceholder: "Найти костюм…",
+  cardFields: [
+    { key: "stats", label: "Статы" },
+    { key: "exoskeleton", label: "Экзоскелет" }
+  ]
+}) }}

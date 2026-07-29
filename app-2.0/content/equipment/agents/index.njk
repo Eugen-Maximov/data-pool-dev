@@ -1,0 +1,24 @@
+---
+title: Агенты и аксессуары
+permalink: /equipment/agents/
+layout: base.njk
+---
+{% from "macros/catalog.njk" import catalog %}
+
+<a href="{{ '/equipment/' | url }}" class="return-link">← Снаряжение</a>
+
+<h1>Агенты и аксессуары</h1>
+
+<div class="article-block">
+  <p><strong>Агент</strong> — смартфон с обучающимся ИИ, который «учится» потребностям владельца. Не настоящий ИИ, но заменяет секретаря: звонки, Дата Пул, маршруты, расписание, имитация личности, заказы, советы.</p>
+  <p>Агент даёт <strong>+2 к «Поиск информации»</strong> и <strong>+2 к «Гардероб и Стиль»</strong> (если носите одежду, которую он предлагает; бонусы нескольких Агентов не суммируются).</p>
+  <p>Софт для Агента — в <a href="{{ '/equipment/soft/' | url }}">магазине приложений</a>.</p>
+</div>
+
+{{ catalog(collections.agentsCategories, collections.agents, {
+  searchPlaceholder: "Найти агента…",
+  cardFields: [
+    { key: "type", label: "Тип" },
+    { key: "humanity", label: "ПЧ" }
+  ]
+}) }}
