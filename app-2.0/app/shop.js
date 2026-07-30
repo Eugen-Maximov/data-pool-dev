@@ -7,6 +7,8 @@
   const statsEl = document.getElementById("item-modal-stats");
   const bodyEl = document.getElementById("item-modal-body");
 
+  // label: string | { label, span? }
+  // span — сколько ячеек сетки занимает блок (по умолчанию 1)
   const STAT_LABELS = {
     skill: "Навык",
     damage: "Урон",
@@ -14,6 +16,7 @@
     rof: "ROF",
     hands: "Руки",
     modSlots: "Слоты модов",
+    fits: { label: "Подходит для", span: 2 },
     concealable: "Скрыть",
     features: "Особенности",
     example: "Примеры",
@@ -36,6 +39,14 @@
     cyberware: "Борт. импланты",
   };
 
+  function getStatMeta(entry) {
+    if (typeof entry === "string") return { label: entry, span: 1 };
+    return {
+      label: entry.label || "",
+      span: Math.max(1, Number(entry.span) || 1),
+    };
+  }
+
   function escapeHtml(str) {
     return String(str)
       .replace(/&/g, "&amp;")
@@ -51,12 +62,13 @@
     }
     statsEl.innerHTML = Object.entries(STAT_LABELS)
       .filter(([key]) => stats[key])
-      .map(
-        ([key, label]) =>
-          `<div class="detail-stat"><span>${label}</span><strong>${escapeHtml(
-            String(stats[key])
-          )}</strong></div>`
-      )
+      .map(([key, entry]) => {
+        const { label, span } = getStatMeta(entry);
+        const spanClass = span > 1 ? ` detail-stat--span-${span}` : "";
+        return `<div class="detail-stat${spanClass}"><span>${label}</span><strong>${escapeHtml(
+          String(stats[key])
+        )}</strong></div>`;
+      })
       .join("");
   }
 
@@ -158,18 +170,23 @@
     input?.addEventListener("input", () => applyCatalogFilters(catalog));
   });
 
-  // Article tabs (clothes, acpa rules)
-  document.querySelectorAll(".tab-buttons").forEach((bar) => {
-    const buttons = bar.querySelectorAll(".tab-button");
+  // Article / modal tabs (clothes, acpa rules, item bodies)
+  // Delegation: modal content is cloned from <template> after load.
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".tab-button[data-tab]");
+    if (!btn) return;
+    const bar = btn.closest(".tab-buttons");
+    if (!bar) return;
+
+    const id = btn.dataset.tab;
     const root = bar.parentElement;
-    buttons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const id = btn.dataset.tab;
-        buttons.forEach((b) => b.classList.toggle("active", b === btn));
-        root.querySelectorAll(".tab-content").forEach((panel) => {
-          panel.classList.toggle("active", panel.id === id);
-        });
-      });
+    if (!root) return;
+
+    bar.querySelectorAll(".tab-button").forEach((b) => {
+      b.classList.toggle("active", b === btn);
+    });
+    root.querySelectorAll(".tab-content").forEach((panel) => {
+      panel.classList.toggle("active", panel.id === id);
     });
   });
 })();

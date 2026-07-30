@@ -178,6 +178,32 @@ a:hover {
   max-width: 60ch;
 }
 
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.content th,
+.content td {
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.content th {
+  background: var(--bg-card);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.content tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
 .return-link {
   display: inline-block;
   margin-bottom: 0.5rem;

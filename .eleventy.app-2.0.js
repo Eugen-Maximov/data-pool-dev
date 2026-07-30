@@ -9,6 +9,7 @@ const CATALOG_STAT_KEYS = [
   "rof",
   "hands",
   "modSlots",
+  "fits",
   "concealable",
   "features",
   "example",
@@ -171,6 +172,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig,
     "weaponsExplosives",
     "app-2.0/content/equipment/weapons/items/explosives/*.md"
+  );
+  makeCatalogCollections(
+      eleventyConfig,
+      "weaponsUpgrades",
+      "app-2.0/content/equipment/weapons/items/upgrades/*.md"
   );
   makeCatalogCollections(
     eleventyConfig,

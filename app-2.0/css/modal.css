@@ -81,6 +81,14 @@
   background: var(--bg-card);
 }
 
+.detail-stat--span-2 {
+  grid-column: span 2;
+}
+
+.detail-stat--span-3 {
+  grid-column: span 3;
+}
+
 .detail-stat span {
   font-size: 0.68rem;
   text-transform: uppercase;
@@ -109,4 +117,33 @@
 
 .weapon-modal__body p:last-child {
   margin-bottom: 0;
+}
+
+.weapon-modal__body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.85rem 0 0.25rem;
+  font-size: 0.84rem;
+  line-height: 1.35;
+}
+
+.weapon-modal__body th,
+.weapon-modal__body td {
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.weapon-modal__body th {
+  background: var(--bg-card);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.weapon-modal__body tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.02);
 }
