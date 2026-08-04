@@ -31,13 +31,15 @@ jobs:
         run: npm ci
 
       - name: Build Data Pool 2.0
+        env:
+          # Project Pages живёт в /data-pool/, поэтому 2.0 деплоим как корень сайта
+          ELEVENTY_PATH_PREFIX: /data-pool/
         run: npm run build:v2
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Eleventy пишет в _site/app-2.0 с pathPrefix /data-pool/app-2.0/
-          path: _site
+          path: _site/app-2.0
 
   deploy:
     needs: build

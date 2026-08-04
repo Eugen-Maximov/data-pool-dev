@@ -259,7 +259,7 @@ module.exports = function (eleventyConfig) {
   );
 
   return {
-    pathPrefix: "/data-pool/app-2.0/",
+    pathPrefix: process.env.ELEVENTY_PATH_PREFIX || "/data-pool/app-2.0/",
     dir: {
       input: "app-2.0/content",
       includes: "../templates/includes",
