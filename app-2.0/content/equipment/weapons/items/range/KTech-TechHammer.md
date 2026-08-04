@@ -3,7 +3,9 @@ title: KTech TechHammer
 permalink: false
 category: "shotgun"
 categoryLabel: "Дробовики"
-categoryOrder: 6
+categories:
+  - id: "rocket"
+    label: "Ракетные Установки"
 skill: "Тактическое, Оружие крупного калибра"
 damage: "3d6 5d6 8d6"
 magazine: "4 Дробовик, 2 Ракета"
