@@ -38,6 +38,7 @@
     shell: "Оболочка",
     weapons: "Борт. оружие",
     cyberware: "Борт. импланты",
+    options: { label: "Подходит", span: 2 },
   };
 
   function getStatMeta(entry) {

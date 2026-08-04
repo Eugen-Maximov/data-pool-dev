@@ -32,6 +32,7 @@ const CATALOG_STAT_KEYS = [
   "shell",
   "weapons",
   "cyberware",
+  "options",
 ];
 
 function makeCatalogCollections(eleventyConfig, name, glob) {
