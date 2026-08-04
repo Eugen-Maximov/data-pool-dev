@@ -10,6 +10,7 @@ const CATALOG_STAT_KEYS = [
   "hands",
   "modSlots",
   "fits",
+  "exot",
   "concealable",
   "features",
   "example",
