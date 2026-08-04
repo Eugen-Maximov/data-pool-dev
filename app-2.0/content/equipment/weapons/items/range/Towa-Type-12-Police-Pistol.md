@@ -19,7 +19,7 @@ availability: Дорого
 source: Храм Тоггла
 summary: "Револьвер с коннектором Смартлинк для копов"
 slug: Towa-Type-12-Police-Pistol
-brand: "Towa"
+brand: "Towa Manufacturing"
 ---
 
 В конце 2010-х годов Това выиграла контракт на поставку оружия полицейским в Токио.
