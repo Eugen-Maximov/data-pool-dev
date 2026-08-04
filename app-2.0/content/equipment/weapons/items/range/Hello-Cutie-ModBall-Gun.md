@@ -19,7 +19,7 @@ availability: Дорогое
 source: 12 Дней Милождества
 summary: "Стреляет жидкостными самодельными патронами"
 slug: Hello-Cutie-ModBall-Gun
-brand: "Hello Cutie"
+brand: "Sanroo Hello Cutie"
 ---
 
 Это средний пистолет с барабаном на 5 выстрелов, стреляющий только специальными жидкостными патронами ModBall.<br>

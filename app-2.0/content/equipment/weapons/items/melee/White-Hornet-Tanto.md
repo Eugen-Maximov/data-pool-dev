@@ -13,7 +13,7 @@ availability: Дорогое
 source: Черный Хром
 summary: "Может быть нелетальным по желанию владельца"
 slug: White-Hornet-Tanto
-brand: "Центурион Эссеншиалс"
+brand: "Centurion Essentials"
 ---
 
 Белый Шершень — это последняя разработка компании

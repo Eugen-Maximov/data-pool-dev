@@ -21,7 +21,7 @@ availability: Очень Дорогое
 source: Микро Хром | Danger Gal Dossier
 summary: "Мурчит и стреляет, какая прелесть:3"
 slug: Micro-Cutie-by-Hello-Cutie
-brand: "Hello Cutie"
+brand: "Sanroo Hello Cutie"
 ---
 
 Средний Пистолет Отличного Качества с магазином на 10 патронов.<br>

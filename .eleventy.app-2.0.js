@@ -149,6 +149,45 @@ module.exports = function (eleventyConfig) {
       .join(" · ")
   );
 
+  eleventyConfig.addFilter("catalogFilterValues", (collection, key) => {
+    const set = new Set();
+    for (const item of collection || []) {
+      const raw = item?.data?.[key];
+      if (raw === undefined || raw === null) continue;
+      const value = String(raw).trim();
+      if (value) set.add(value);
+    }
+    return [...set].sort((a, b) => a.localeCompare(b, "ru"));
+  });
+
+  eleventyConfig.addFilter("catalogFilterLabel", (key) => {
+    const labels = {
+      skill: "Навык",
+      damage: "Урон",
+      magazine: "Магазин",
+      rof: "ROF",
+      hands: "Руки",
+      modSlots: "Слоты модов",
+      fits: "Подходит для",
+      exot: "Тип оружия",
+      concealable: "Скрыть",
+      features: "Особенности",
+      example: "Примеры",
+      price: "Цена",
+      availability: "Доступность",
+      source: "Источник",
+      sp: "ОС",
+      bodyPart: "Часть тела",
+      penalty: "Штрафы",
+      style: "Стиль",
+      brand: "Бренд",
+      humanity: "ПЧ",
+      install: "Установка",
+      type: "Тип",
+    };
+    return labels[key] || key;
+  });
+
   makeCatalogCollections(
     eleventyConfig,
     "weapons",

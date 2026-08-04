@@ -21,6 +21,7 @@ layout: base.njk
 
 {{ catalog(collections.weaponsMeleeCategories, collections.weaponsMelee, {
   searchPlaceholder: "Найти оружие…",
+  filters: ["brand"],
   cardFields: [
     { key: "damage", label: "Урон" },
     { key: "rof", label: "ROF" },

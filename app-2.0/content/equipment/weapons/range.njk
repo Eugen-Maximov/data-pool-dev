@@ -21,6 +21,7 @@ layout: base.njk
 
 {{ catalog(collections.weaponsRangeCategories, collections.weaponsRange, {
   searchPlaceholder: "Найти оружие…",
+  filters: ["exot", "brand"],
   cardFields: [
     { key: "damage", label: "Урон" },
     { key: "exot", label: "Тип оружия" }

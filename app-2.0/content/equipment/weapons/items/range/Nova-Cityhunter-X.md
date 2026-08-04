@@ -19,7 +19,7 @@ availability: Дорого
 source: Cyberpunk RED | Храм Тоггла
 summary: "Переделка легендарного 757 Cityhunter"
 slug: Nova-Cityhunter-X
-brand: "Nova"
+brand: "Nova Arms"
 ---
 
 Популярность модели 757 Cityhunter побудила Nova Arms выпустить другое оружие под той же торговой маркой.

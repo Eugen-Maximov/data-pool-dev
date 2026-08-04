@@ -13,7 +13,7 @@ availability: Дорогое
 source: 12 Дней Милождества
 summary: "Громкие удары, буквально"
 slug: Hello-Cutie-Thundercat-Bat
-brand: "Hello Cutie"
+brand: "Sanroo Hello Cutie"
 ---
 
 Это Двуручная Шоковая Дубинка Отличного Качества (см. CP:R стр. 349).

@@ -13,7 +13,7 @@ availability: Очень Дорогое
 source: 12 Дней Милождества
 summary: "Огромный молот, который еще и издевается над слабаками"
 slug: Hello-Cutie-Hypurr-Hammer
-brand: "Hello Cutie"
+brand: "Sanroo Hello Cutie"
 ---
 
 Hypurr-Молот — это двуручное Очень Тяжёлое Оружие ближнего боя, которое не делит ОС брони цели пополам, как обычное оружие.<br>

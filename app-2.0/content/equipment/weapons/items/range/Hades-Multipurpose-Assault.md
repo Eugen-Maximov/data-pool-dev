@@ -19,7 +19,7 @@ availability: Роскошь
 source: Черный Хром
 summary: "Многоцелевой дробовик с большим магазином"
 slug: Hades-Multipurpose-Assault
-brand: "МетаКорп"
+brand: "MetaCorp"
 ---
 
 МетаКорп разработала многоцелевой штурмовой дробовик Аид, чтобы

@@ -20,7 +20,7 @@ availability: Очень Дорого
 source: 12 Дней Оруждества | Danger Gun Dossier
 summary: "Легендарный умный револьвер со времен 2020"
 slug: Nova-757-CityHunter
-brand: "Nova"
+brand: "Nova Arms"
 ---
 
 Необычный револьвер двойного действия от Nova

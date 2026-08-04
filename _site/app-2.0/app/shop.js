@@ -123,6 +123,30 @@
     return el.closest("[data-catalog]") || el.closest(".content") || document;
   }
 
+  function getActivePropFilters(catalog) {
+    const selected = {};
+    catalog.querySelectorAll("[data-filter-key]").forEach((group) => {
+      const key = group.dataset.filterKey;
+      if (!key) return;
+      const values = [...group.querySelectorAll("[data-filter-value]:checked")].map(
+        (input) => input.value
+      );
+      if (values.length) selected[key] = values;
+    });
+    return selected;
+  }
+
+  function updateFilterBadge(catalog) {
+    const badge = catalog.querySelector("[data-catalog-filters-badge]");
+    if (!badge) return;
+    const count = Object.values(getActivePropFilters(catalog)).reduce(
+      (sum, values) => sum + values.length,
+      0
+    );
+    badge.hidden = count === 0;
+    badge.textContent = String(count);
+  }
+
   function applyCatalogFilters(root) {
     const catalog = root.matches?.("[data-catalog]")
       ? root
@@ -135,6 +159,7 @@
     const q = (input?.value || "").trim().toLowerCase();
     const activeTab = catalog.querySelector(".shop-tab.is-active");
     const category = activeTab?.dataset.category || "*";
+    const propFilters = getActivePropFilters(catalog);
 
     let visible = 0;
     grid.querySelectorAll(".weapon-card").forEach((card) => {
@@ -148,11 +173,16 @@
         cardCats.includes(category) ||
         (!cardCats.length && (card.dataset.category || "") === category);
       const matchText = !q || hay.includes(q);
-      const show = matchCat && matchText;
+      const matchProps = Object.entries(propFilters).every(([key, values]) => {
+        const cardValue = card.getAttribute(`data-f-${key}`) || "";
+        return values.includes(cardValue);
+      });
+      const show = matchCat && matchText && matchProps;
       card.hidden = !show;
       if (show) visible++;
     });
     if (countEl) countEl.textContent = String(visible);
+    updateFilterBadge(catalog);
   }
 
   document.querySelectorAll("[data-catalog]").forEach((catalog) => {
@@ -169,6 +199,39 @@
 
     const input = catalog.querySelector("[data-catalog-filter]");
     input?.addEventListener("input", () => applyCatalogFilters(catalog));
+
+    const filterToggle = catalog.querySelector("[data-catalog-filters-toggle]");
+    const filterPanel = catalog.querySelector("[data-catalog-filters]");
+    if (filterToggle && filterPanel) {
+      filterToggle.addEventListener("click", () => {
+        const open = filterPanel.hasAttribute("hidden");
+        if (open) filterPanel.removeAttribute("hidden");
+        else filterPanel.setAttribute("hidden", "");
+        filterToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+
+      filterPanel.addEventListener("change", (e) => {
+        if (e.target.matches("[data-filter-value]")) applyCatalogFilters(catalog);
+      });
+
+      catalog
+        .querySelector("[data-catalog-filters-reset]")
+        ?.addEventListener("click", () => {
+          filterPanel
+            .querySelectorAll("[data-filter-value]")
+            .forEach((input) => {
+              input.checked = false;
+            });
+          applyCatalogFilters(catalog);
+        });
+
+      document.addEventListener("click", (e) => {
+        if (e.target.closest(".shop-filter")) return;
+        if (filterPanel.hasAttribute("hidden")) return;
+        filterPanel.setAttribute("hidden", "");
+        filterToggle.setAttribute("aria-expanded", "false");
+      });
+    }
   });
 
   // Article / modal tabs (clothes, acpa rules, item bodies)

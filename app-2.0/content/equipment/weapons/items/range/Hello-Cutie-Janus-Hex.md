@@ -20,7 +20,7 @@ availability: Дорого
 source: 12 Дней Милождества
 summary: "Пистолет для настоящих мужчин"
 slug: Hello-Cutie-Janus-Hex
-brand: "Hello Cutie"
+brand: "Sanroo Hello Cutie"
 ---
 
 Матовый чёрный корпус с акцентами из хромированной пурпурной магенты — Janus Hex создан
