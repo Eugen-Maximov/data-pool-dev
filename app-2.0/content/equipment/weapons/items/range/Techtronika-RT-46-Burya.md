@@ -1,5 +1,5 @@
 ---
-title: Techtronika RT-46 Burya
+title: Техтроника RT-46 Burya
 permalink: false
 category: "very-heavy-pistol"
 categoryLabel: "Очень Тяжелые Пистолеты"
@@ -21,7 +21,7 @@ availability: Очень Дорого
 source: Edgerunners Mission Kit
 summary: "Эффективно, но максимально небезопасно прямиком из СССР"
 slug: Techtronika-RT-46-Burya
-brand: "Techtronika"
+brand: "Техтроника"
 ---
 
 Буря уродлива, неудобна и небезопасна, но чертовски эффективна.<br>

@@ -1,5 +1,5 @@
 ---
-title: Tech Russia BMG-500
+title: Техтроника Россия BMG-500
 permalink: false
 category: "assault"
 categoryLabel: "Штурмовые Винтовки"
@@ -19,7 +19,7 @@ features: |-
 price: 1000eb
 availability: Очень Дорого
 source: Черный Хром
-summary: "Это уже целый пулемет с сошками"
+summary: "Это уже почти пулемет, а не винтовка, с сошками"
 slug: Tech-Russia-BMG-500
 brand: "Техтроника"
 ---
