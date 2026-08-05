@@ -21,6 +21,7 @@ layout: base.njk
 
 {{ catalog(collections.weaponsAmmoCategories, collections.weaponsAmmo, {
   searchPlaceholder: "Найти боеприпасы…",
+  filters: ["brand"],
   cardFields: [
     { key: "options", label: "Подходят к" }
   ]

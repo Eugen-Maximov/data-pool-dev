@@ -33,7 +33,7 @@ jobs:
       - name: Build Data Pool 2.0
         env:
           # Project Pages живёт в /data-pool/, поэтому 2.0 деплоим как корень сайта
-          ELEVENTY_PATH_PREFIX: /data-pool/
+          ELEVENTY_PATH_PREFIX: /data-pool-dev/
         run: npm run build:v2
 
       - name: Upload Pages artifact
