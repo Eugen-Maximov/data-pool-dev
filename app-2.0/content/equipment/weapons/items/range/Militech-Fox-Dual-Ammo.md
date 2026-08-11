@@ -17,7 +17,7 @@ features: |-
 price: 1000eb
 availability: Очень Дорогое
 source: Черный Хром
-summary: "Дешевый одноразовый ствол. Ну хоть выглядит круто"
+summary: "Удвоенный боезапас - это всегда хорошо"
 slug: Militech-Fox-Dual-Ammo
 brand: "Militech"
 ---

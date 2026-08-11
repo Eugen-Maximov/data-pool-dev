@@ -33,11 +33,11 @@
     humanity: "ПЧ",
     install: "Установка",
     type: "Тип",
-    stats: "Характеристики",
+    stats: { label: "Характеристики", span: 2 },
     exoskeleton: "Экзоскелет",
     shell: "Оболочка",
-    weapons: "Борт. оружие",
-    cyberware: "Борт. импланты",
+    weapons: { label: "Бортовое вооружение", span: 2 },
+    cyberware: { label: "Бортовые импланты", span: 2 },
     options: { label: "Подходит", span: 2 },
   };
 
