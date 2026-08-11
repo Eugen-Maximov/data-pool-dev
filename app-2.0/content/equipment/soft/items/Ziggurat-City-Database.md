@@ -1,19 +1,16 @@
 ---
-title: Городская База Данных
+title: Ziggurat City Database
 permalink: false
 tags: soft
 category: paid
 categoryLabel: Платные
-categoryOrder: '20'
-brand: Зиккурат
+categoryOrder: 2
 price: 100eb
 availability: Премиум
-source: Cyberpunk RED
-summary: '“Ваш агент — великолепный инструмент, но если вы не загружаете в него приложения, вы используете только половину его…'
-categories:
-  - id: "paid"
-    label: "Платные"
-slug: городская-база-данных
+source: Черный Хром
+summary: 'Справочник по городу'
+slug: Ziggurat-City-Database
+brand: Ziggurat
 ---
 “Ваш агент — великолепный инструмент, но если вы
 не загружаете в него приложения, вы используете

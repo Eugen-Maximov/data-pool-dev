@@ -154,3 +154,11 @@ blockquote {
   color: rgb(52, 159, 0);
   font-style: italic;
 }
+
+.sidebar-group {
+  border: 1px solid #ff0040;
+  border-radius: 8px;
+  padding: 0.5em;
+  /*background-color: #2a2a2a;*/
+  margin-bottom: 1em;
+}

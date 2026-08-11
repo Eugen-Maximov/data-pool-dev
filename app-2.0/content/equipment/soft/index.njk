@@ -12,6 +12,7 @@ layout: base.njk
 
 {{ catalog(collections.softCategories, collections.soft, {
   searchPlaceholder: "Найти приложение…",
+  filters: ["brand"],
   cardFields: [
     { key: "brand", label: "Бренд" }
   ]
