@@ -2,23 +2,17 @@
 title: METACORP NYX
 permalink: false
 tags: acpa
-category: suits
-categoryLabel: Готовые варианты
-categoryOrder: '10'
 stats: 28 ПЗ • 16 ОС • ТЕЛО 16 • +3 СКО • –1 ЛВК
 exoskeleton: Омега
-shell: лёгкий Metalgear®
+shell: Лёгкий Metalgear®
 weapons: 'ОК снайперская винтовка с барабанным магазином и перекалибровкой снайперской винтовки,'
-cyberware: 'низкая освещённость/ИК/УФ, рация, ласты'
-image: /images/content/equipment/acpa/nyx.jpg
+cyberware: 'Низкая освещённость/ИК/УФ, Рация, Ласты'
 price: 35400eb
 availability: Супер роскошь
-source: Interface RED / ACPA
-summary: Стратегический захват MetaCorp бывшего завода Mexican Metals позволил корпорации возродить давно снятый с производства…
-categories:
-  - id: "suits"
-    label: "Готовые варианты"
-slug: metacorp-nyx
+source: Соло Удачи 2045
+summary: Силовая броня с огромным запасом мощности
+slug: Metacorp-Nyx
+brand: Metacorp
 ---
 Стратегический захват MetaCorp бывшего завода Mexican
                 Metals позволил корпорации возродить давно снятый с производства штурмовой Nemesis в современном виде. Инженеры
@@ -27,8 +21,6 @@ slug: metacorp-nyx
                 с огромным запасом мощности. Идеальный инструмент для защиты
                 плавучих городов Нью-Галвестона и MetaKey от пиратов.
 
-
-                
-
-
-                                                                пулемёт MetaCorp «Victoria»
+<div class="image-container">
+    <img src="{{ '/images/content/equipment/acpa/nyx.jpg' | url }}" alt="ACPA 5">
+</div>

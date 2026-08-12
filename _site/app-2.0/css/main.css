@@ -1,5 +1,6 @@
 @import "./shop.css";
 @import "./modal.css";
+@import "images.css";
 
 :root {
   --bg: #0c0e12;

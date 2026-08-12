@@ -2,23 +2,17 @@
 title: ZHIRAFA БОРИС
 permalink: false
 tags: acpa
-category: suits
-categoryLabel: Готовые варианты
-categoryOrder: '10'
 stats: 60 ПЗ • 19 ОС • ТЕЛО 16 • –1 РЕФ • –1 ЛВК • –2 СКО
 exoskeleton: Омега
-shell: тяжёлый Metalgear®
+shell: Тяжелый Metalgear®
 weapons: 'ОК ракетница с расширенным магазином и коннектором смартлинка (x4),'
 cyberware: прицельный модуль
-image: /images/content/equipment/acpa/boris.jpg
 price: 46900eb
 availability: Супер роскошь
-source: Interface RED / ACPA
+source: Соло Удачи 2045
 summary: 'Zhirafa Борис — обновлённая версия 2020-х годов, изначально разработанного Russian Arms.'
-categories:
-  - id: "suits"
-    label: "Готовые варианты"
-slug: zhirafa-борис
+slug: Zhirafa-Boris
+brand: Zhirafa
 ---
 Zhirafa Борис — обновлённая версия 2020-х годов, изначально разработанного Russian Arms. Компания Zhirafa сочла нужным переработать
                 конструкцию, оснастив большей огневой мощью и новой, тяжёлой бронёй.
@@ -28,8 +22,6 @@ Zhirafa Борис — обновлённая версия 2020-х годов, �
                 в Танзании, на стороне народа, а также на политически раздробленном
                 севере Корейского полуострова на стороне различных военных лидеров.
 
-
-                
-
-
-                                                                Техтроника Россия BMG-500 (Silver Edition)
+<div class="image-container">
+    <img src="{{ '/images/content/equipment/acpa/boris.jpg' | url }}" alt="ACPA 9">
+</div>

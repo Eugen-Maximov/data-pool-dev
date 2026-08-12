@@ -2,23 +2,17 @@
 title: СОВОЙЛ БОМБАРДИР
 permalink: false
 tags: acpa
-category: suits
-categoryLabel: Готовые варианты
-categoryOrder: '10'
 stats: 51 ПЗ • 18 ОС • ТЕЛО 14 • –2 СКО • –1 РЕФ • –1 ЛВК
 exoskeleton: Бета
 shell: Metalgear®
 weapons: ОК ракетница с барабанным магазином и длинной трубой (x4)
-cyberware: нет
-image: /images/content/equipment/acpa/bombardir.jpg
+cyberware: Нет
 price: 32400eb
 availability: Супер роскошь
-source: Interface RED / ACPA
-summary: 'Тяжёлая силовая броня, созданная для роли артиллерийской поддержки.'
-categories:
-  - id: "suits"
-    label: "Готовые варианты"
-slug: совойл-бомбардир
+source: Соло Удачи 2045
+summary: 'Тяжёлая силовая броня, созданная для роли арт.поддержки'
+slug: SovOil-Bombardier
+brand: SovOil
 ---
 Тяжёлая силовая броня, созданная для роли артиллерийской поддержки.
                 Бомбардир начал жизнь как разработка Russian Arms,
@@ -26,3 +20,7 @@ slug: совойл-бомбардир
                 Борис вполне можно считать братьями. После масштабной
                 переработки с целью снизить производственные издержки
                 современный бомбардир обеспечивает сопоставимый уровень разрушений, что и Борис, но в пакете примерно на 30% дешевле.
+
+<div class="image-container">
+    <img src="{{ '/images/content/equipment/acpa/bombardir.jpg' | url }}" alt="ACPA 7">
+</div>
